@@ -41,6 +41,7 @@ public class HelloEspressoTest {
     public void convertTemperatureFrom0CelciusShould32Fahrenheit(){
         onView(withId(R.id.editCelsius)).perform(typeText(this.celsius));
         onView(withId(R.id.editFahrenheit)).check(matches(withText(this.fahrenheit)));
+
     }
 
 
